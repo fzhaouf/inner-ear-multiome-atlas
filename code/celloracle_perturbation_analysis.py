@@ -2,9 +2,6 @@
 
 Purpose:
     Representative analysis code for CellOracle in silico perturbation analysis.
-    The main manuscript result focused on FOXI1 overexpression and comparison of
-    perturbation vectors with the inferred developmental flow along the otic to
-    hair-cell trajectory.
 """
 
 from pathlib import Path
