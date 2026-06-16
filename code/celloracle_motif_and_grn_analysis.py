@@ -1,10 +1,11 @@
 """CellOracle motif scanning and gene regulatory network inference.
 
 Purpose:
-    Representative analysis code for creating CellOracle inputs, scanning TF
+    analysis code for creating CellOracle inputs, scanning TF
     motifs in accessible peaks, building the base GRN, and estimating
     cell-type-specific GRNs for the otic -> early hair cell -> late hair cell
     lineage.
+"""
 
 from pathlib import Path
 
