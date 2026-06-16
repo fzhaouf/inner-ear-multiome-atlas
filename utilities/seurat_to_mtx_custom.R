@@ -1,7 +1,4 @@
 # Export Seurat RNA data and metadata to matrix/CSV files for Python/AnnData.
-#
-# Can be used either as a sourced function or from command line:
-#   Rscript utilities/seurat_to_mtx_custom.R path/to/object.rds output_folder
 
 suppressPackageStartupMessages({
   library(Seurat)
