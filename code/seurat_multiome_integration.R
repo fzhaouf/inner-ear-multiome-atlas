@@ -1,9 +1,5 @@
 # Seurat/Signac multiome preprocessing and integration
-#
-# Purpose:
-#   Representative analysis code for integrating day 45, day 50, and day 55
-#   10x Multiome RNA + ATAC data. This script documents the main workflow used
-#   for RNA integration, ATAC LSI integration, WNN UMAP, and clustering.
+
 
 suppressPackageStartupMessages({
   library(Seurat)
