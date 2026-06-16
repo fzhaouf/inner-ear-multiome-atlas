@@ -1,10 +1,4 @@
 # Prepare CellOracle RNA and ATAC inputs from integrated Seurat object
-#
-# Purpose:
-#   Representative code for preparing the hair-cell lineage subset and peak
-#   co-accessibility inputs for CellOracle. The RNA subset is exported to matrix
-#   files using utilities/seurat_to_mtx_custom.R and then converted to AnnData
-#   by the companion Python code in celloracle_motif_and_grn_analysis.py.
 
 suppressPackageStartupMessages({
   library(Seurat)
