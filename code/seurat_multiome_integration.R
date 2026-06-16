@@ -1,6 +1,5 @@
 # Seurat/Signac multiome preprocessing and integration
 
-
 suppressPackageStartupMessages({
   library(Seurat)
   library(Signac)
