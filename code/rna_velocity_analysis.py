@@ -5,11 +5,6 @@ Purpose:
     with sample-specific loom files containing spliced and unspliced counts. The
     script computes RNA velocity and creates a lineage subset used for downstream
     CellRank analysis.
-
-Notes:
-    - Update paths before running.
-    - This script documents the analysis workflow; raw loom and h5ad files are
-      not included in this repository.
 """
 
 from pathlib import Path
@@ -79,8 +74,6 @@ ldata = load_and_merge_looms()
 # Merge spliced/unspliced layers into the integrated AnnData object.
 adata = scv.utils.merge(adata, ldata)
 
-# The manuscript used WNN UMAP from Seurat. Keep the embedding under X_umap
-# so scVelo plotting functions can use basis="umap".
 if "X_wnn_umap" in adata.obsm and "X_umap" not in adata.obsm:
     adata.obsm["X_umap"] = adata.obsm["X_wnn_umap"]
 
@@ -127,8 +120,6 @@ for gene in ["JAG1", "POU4F3", "ATOH1", "MYO7A"]:
 # Hair-cell lineage subset for dynamical velocity and CellRank
 # ---------------------------------------------------------------------
 
-# Cell-type labels may differ slightly depending on preprocessing. These labels
-# match the manuscript-level lineage: otic progenitors -> early hair cells -> late hair cells.
 lineage_labels = [
     "Otic",
     "otic",
