@@ -18,12 +18,6 @@ utilities/
   merge_loom.py
   seurat_to_mtx_custom.R
 
-environment/
-  python_environment.yml
-  R_sessionInfo_template.R
-
-data/
-  README_data_access.md
 ```
 
 ## Main workflow
