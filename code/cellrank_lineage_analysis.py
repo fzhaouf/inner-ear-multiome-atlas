@@ -1,12 +1,7 @@
-"""CellRank lineage analysis.
+# CellRank lineage analysis.
 
-Purpose:
-    Representative analysis code for reconstructing the otic progenitor -> early
-    hair cell -> late hair cell trajectory using CellRank.
-"""
 
 from pathlib import Path
-
 import cellrank as cr
 import matplotlib.pyplot as plt
 import scanpy as sc
