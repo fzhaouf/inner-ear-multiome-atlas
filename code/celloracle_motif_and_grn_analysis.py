@@ -1,5 +1,5 @@
-"""CellOracle motif scanning and gene regulatory network inference.
-"""
+# CellOracle motif scanning and gene regulatory network inference.
+
 
 from pathlib import Path
 
