@@ -6,16 +6,6 @@ Purpose:
     cell-type-specific GRNs for the otic -> early hair cell -> late hair cell
     lineage.
 
-Required inputs produced by celloracle_input_preparation.R:
-    celloracle/tmp_export/assay_RNA_data.mtx
-    celloracle/tmp_export/assay_RNA_rawdata.mtx
-    celloracle/tmp_export/meta_data.csv
-    celloracle/tmp_export/var_genes.csv
-    celloracle/tmp_export/reduction_*.csv
-    celloracle/cicero/all_peaks.csv
-    celloracle/cicero/cicero_connections.csv
-"""
-
 from pathlib import Path
 
 import celloracle as co
