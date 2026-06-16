@@ -1,11 +1,5 @@
-"""RNA velocity analysis with scVelo.
+# RNA velocity analysis with scVelo.
 
-Purpose:
-    Representative analysis code for combining integrated AnnData metadata/UMAP
-    with sample-specific loom files containing spliced and unspliced counts. The
-    script computes RNA velocity and creates a lineage subset used for downstream
-    CellRank analysis.
-"""
 
 from pathlib import Path
 
