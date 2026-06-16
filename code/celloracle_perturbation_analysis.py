@@ -1,7 +1,4 @@
 """CellOracle perturbation simulation.
-
-Purpose:
-    Representative analysis code for CellOracle in silico perturbation analysis.
 """
 
 from pathlib import Path
