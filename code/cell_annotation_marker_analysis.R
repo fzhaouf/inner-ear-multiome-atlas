@@ -1,7 +1,7 @@
 # Cell annotation, marker analysis, differential expression, and differential accessibility
 #
 # Purpose:
-#   Representative analysis code for annotating WNN clusters, finding marker genes,
+#   analysis code for annotating WNN clusters, finding marker genes,
 #   comparing early hair cells with related populations, and visualizing chromatin
 #   accessibility around key hair-cell genes.
 
